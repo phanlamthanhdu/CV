@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  13 NOV 2023 17:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  13 NOV 2023 18:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,33 +762,33 @@ LaTeX Font Info:    External font `cmex7' loaded for size
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <5> on input line 61.
 LaTeX Font Info:    Font shape `T1/lato-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 72.
+(Font)              scaled to size 17.28pt on input line 65.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/m/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 72.
+(Font)              `T1/RobotoSlab-TLF/regular/n' on input line 65.
 LaTeX Font Info:    Font shape `T1/RobotoSlab-TLF/b/n' aliased to
-(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 72.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 74.
+(Font)              `T1/RobotoSlab-TLF/bold/n' on input line 65.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 66.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 76.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 68.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 78.
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 70.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 78.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 70.
 LaTeX Font Info:    Font shape `T1/lato-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 90.
-LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 92.
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Trying to load font information for TS1+lato-TLF on input line 79.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/lato\ts1lato-tlf.fd
 File: TS1lato-TLF.fd 2019/06/24 Font definitions for TS1/lato-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 92.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 200.
+(Font)              scaled to size 10.0pt on input line 79.
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 184.
  (C:\Users\admin\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
 LaTeX Font Info:    Font shape `TS1/lato-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 202.
+(Font)              scaled to size 9.0pt on input line 186.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <12> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 214.
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 198.
  [1
 
 {C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/roboto/rbto_j2bk2t.enc}{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_cl4kdn.enc}{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lato/a_rt66h3.enc}{C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}] (main.aux)

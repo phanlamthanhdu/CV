@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1699873050 "d:/workplace/Latex/CV/main.tex" "main.pdf" "main" 1699873051 0
+["pdflatex"] 1699873319 "d:/workplace/Latex/CV/main.tex" "main.pdf" "main" 1699873320 0
   "C:/Users/admin/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1699872839 413354 5c29f1e8048c1f7582405db876b8b2e6 ""
   "C:/Users/admin/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1699872089 24212835 a1c95e21b8abef191a6a42d9ab34dfc8 ""
   "C:/Users/admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1651500229 2920 d63721872b8c77041b88e51b8f7c291d ""
@@ -227,12 +227,12 @@
   "C:/Users/admin/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1656236890 56148 51a9a8571c07b9921892ae11063ae853 ""
   "C:/Users/admin/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "C:/Users/admin/AppData/Local/Programs/MiKTeX/tex/latex/xmpincl/xmpincl.sty" 1633254124 2832 d498c59e94b7dfa3b4bcf74380ad6348 ""
-  "altacv.cls" 1699872578 16765 6a130271389cb540c55dbb86bb0d51c5 ""
-  "d:/workplace/Latex/CV/main.tex" 1699873050 11531 bdbaeb3e2ab85f5544badc69f6344c7d ""
-  "main.aux" 1699873051 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
-  "main.out" 1699873051 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "main.tex" 1699873050 11531 bdbaeb3e2ab85f5544badc69f6344c7d ""
-  "pdfa.xmpi" 1699873051 5042 9a71641e8077418e856cb8ee7dffb722 "pdflatex"
+  "altacv.cls" 1699873317 16765 6a130271389cb540c55dbb86bb0d51c5 ""
+  "d:/workplace/Latex/CV/main.tex" 1699873317 10650 3e01cd7ea690f8282cd556bf485b5fa9 ""
+  "main.aux" 1699873320 162 55205a9e8a8eca30d36afb389b0617bf "pdflatex"
+  "main.out" 1699873320 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "main.tex" 1699873317 10650 3e01cd7ea690f8282cd556bf485b5fa9 ""
+  "pdfa.xmpi" 1699873319 5042 ae9b62255d6798503e4a15474ac4562c "pdflatex"
   (generated)
   "main.aux"
   "main.log"
