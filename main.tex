@@ -1,0 +1,258 @@
+\PassOptionsToPackage{dvipsnames}{xcolor}
+
+\documentclass[10pt,a4paper,ragged2e,withhyper]{altacv}
+
+\newenvironment{sloppypar*}{\sloppy\ignorespaces}{\par}
+
+\geometry{left=1.2cm,right=1.2cm,top=0.8cm,bottom=0.8cm,columnsep=0.75cm}
+
+\usepackage{setspace}
+\usepackage{paracol}
+
+\ifxetexorluatex
+  \setmainfont{Roboto Slab}
+  \setsansfont{Lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage[rm]{roboto}
+  \usepackage[defaultsans]{lato}
+  \renewcommand{\familydefault}{\sfdefault}
+\fi
+
+\ifdarkmode%
+  \definecolor{PrimaryColor}{HTML}{C69749}
+  \definecolor{SecondaryColor}{HTML}{D49B54}
+  \definecolor{ThirdColor}{HTML}{1877E8}
+  \definecolor{BodyColor}{HTML}{ABABAB}
+  \definecolor{EmphasisColor}{HTML}{ABABAB}
+  \definecolor{BackgroundColor}{HTML}{191919}
+\else%
+  \definecolor{PrimaryColor}{HTML}{001F5A}
+  \definecolor{SecondaryColor}{HTML}{0000FF}
+  \definecolor{ThirdColor}{HTML}{F3890B}
+  \definecolor{BodyColor}{HTML}{666666}
+  \definecolor{EmphasisColor}{HTML}{2E2E2E}
+  \definecolor{BackgroundColor}{HTML}{FFFFFF}
+\fi%
+
+\colorlet{name}{PrimaryColor}
+\colorlet{tagline}{SecondaryColor}
+\colorlet{heading}{PrimaryColor}
+\colorlet{headingrule}{ThirdColor}
+\colorlet{subheading}{SecondaryColor}
+\colorlet{accent}{SecondaryColor}
+\colorlet{emphasis}{EmphasisColor}
+\colorlet{body}{BodyColor}
+\pagecolor{BackgroundColor}
+
+\renewcommand{\namefont}{\Huge\rmfamily\bfseries}
+\renewcommand{\personalinfofont}{\small\bfseries}
+\renewcommand{\cvsectionfont}{\LARGE\rmfamily\bfseries}
+\renewcommand{\cvsubsectionfont}{\large\bfseries}
+
+\renewcommand{\itemmarker}{{\small\textbullet}}
+\renewcommand{\ratingmarker}{\faCircle}
+
+
+\begin{document}
+    \name{\centering \vspace{0.5em} Phan Lam Thanh Du \par} 
+    \tagline{\centering  \huge Data Scientist Intern \par}
+    \personalinfo{}
+    \makecvheader
+    %% Depending on your tastes, you may want to make fonts of itemize environments slightly smaller
+    % \AtBeginEnvironment{itemize}{\small}
+    
+    %% Set the left/right column width ratio to 6:4.
+    \columnratio{0.35}
+
+    % Start a 2-column paracol. Both the left and right columns will automatically
+    % break across pages if things get too long.
+    \begin{paracol}{2}
+        % ----- Info -----
+        \cvsection{Info}
+            %% Fork v1.6.5c: The sloppypar* environment is used to avoid tags overlapping with section width
+        \textcolor{blue}{\faIcon{phone}}  \textcolor{black}{0848 412 224} \hspace{10em} \\
+        \vspace{0.8em}
+        \textcolor{blue}{\faIcon{envelope}} \textcolor{black}{\href{mailto:phanlamthanhdu@email.com}{phanlamthanhdu@email.com}} \\
+        \vspace{0.8em}
+        \textcolor{blue}{\faIcon{github}}  \textcolor{black}{\href{https://github.com/phanlamthanhdu}{phanlamthanhdu}}
+        \vspace{0.8em} \\
+        \textcolor{blue}{\faIcon{map-marker-alt}} \textcolor{black}{HCM City, Viet Nam}
+        % ----- Info -----
+        
+        % ----- Skill -----
+        \cvsection{Skills}
+            % \begin{sloppypar*}
+            %     \cvtags{C/C++ (1 year), Python (5 months), Git/Github (1 year), SQL (8 month)}
+
+            %     \cvtags{Red, Yellow, Blue, Green, Violet, Orange}
+            % \end{sloppypar*}
+            \textcolor{black}{\textbf{Programming Language:}}\\
+            \vspace{0.8em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{C/C++ : 1 year} \\
+            \vspace{0.5em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{Python : 6 months} \\
+            \vspace{0.5em}
+            \hspace{1.5em} \textcolor{black}{(Pandas, Numpy, Matplotlib, Sklearn)} \\
+            \vspace{0.8em}
+            \textcolor{black}{\textbf{Database:}} \\
+            \vspace{0.8em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{SQL Sever : 8 months} \\
+            \vspace{0.5em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{MySQL : 3 months} \\
+            \vspace{0.8em}
+
+            \textcolor{black}{\textbf{Other:}} \\
+            \vspace{0.8em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{Git/Github : 1 year} \\
+            \vspace{0.5em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{Ubuntu : 1 year} \\
+            \vspace{0.5em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{Power BI : 3 months} \\
+            \vspace{0.5em}
+            \hspace{3em} • \hspace{0.5em} \textcolor{black}{Docker : 1 months} \\
+        % ----- LEARNING -----
+        
+        % ----- LANGUAGES -----
+        \cvsection{Languages}
+            \textcolor{black}{\textbf{Vietnamese:}}  \textcolor{black}{Native} \\
+            \vspace{0.8em}
+            \textcolor{black}{\textbf{English:}}  \textcolor{black}{Immediate - B2 (IELTS 5.5)}
+            %% Yeah I didn't spend too much time making all the
+            %% spacing consistent... sorry. Use \smallskip, \medskip,
+            %% \bigskip, \vpsace etc to make ajustments.
+        % ----- LANGUAGES -----
+            
+        % ----- REFERENCES -----
+        \cvsection{References}
+            \textcolor{black}{\textbf{Prof. Nguyen Thi Ngoc Diem}} \\
+            \vspace{0.5em}
+            \textcolor{blue}{\faIcon{phone}}  \textcolor{black}{0932 091 060} \\
+            \vspace{0.5em}
+            \textcolor{blue}{\faIcon{envelope}} \textcolor{black}{\href{mailto:diemntn@uit.edu.vn}{diemntn@uit.edu.vn}} \\
+            \vspace{2em}
+            
+            \textcolor{black}{\textbf{Nguyen Thi Le Thuan}} \\
+            \vspace{0.5em}
+            \textcolor{blue}{\faIcon{phone}}  \textcolor{black}{0939 250 866} \\
+            \vspace{0.5em}
+            \textcolor{blue}{\faIcon{envelope}} \textcolor{black}{\href{mailto:thuan@bcu.edu.vn}{thuan@bcu.edu.vn}} \\
+            \vspace{0.8em}
+        % ----- REFERENCES -----
+        
+        % ----- MOST PROUD -----
+        % \cvsection{Most Proud of}
+        
+        % \cvachievement{\faTrophy}{Fantastic Achievement}{and some details about it}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}\\
+        % \divider
+        % \cvachievement{\faHeartbeat}{Another achievement}{more details about it of course}
+        % ----- MOST PROUD -----
+        
+        % \cvsection{A Day of My Life}
+        
+        % Adapted from @Jake's answer from http://tex.stackexchange.com/a/82729/226
+        % \wheelchart{outer radius}{inner radius}{
+        % comma-separated list of value/text width/color/detail}
+        % \wheelchart{1.5cm}{0.5cm}{%
+        %   6/8em/accent!30/{Sleep,\\beautiful sleep},
+        %   3/8em/accent!40/Hopeful novelist by night,
+        %   8/8em/accent!60/Daytime job,
+        %   2/10em/accent/Sports and relaxation,
+        %   5/6em/accent!20/Spending time with family
+        % }
+        
+        % use ONLY \newpage if you want to force a page break for
+        % ONLY the current column
+        \newpage
+        
+        %% Switch to the right column. This will now automatically move to the second
+        %% page if the content is too long.
+        \switchcolumn
+        
+        % ----- ABOUT ME -----
+        \cvsection{About Me}
+            \textcolor{black}{A sophomore majoring in Computer Science with a good foundation in \textbf{Data Structure \& Algorithms} and \textbf{Object Oriented Programming}.}{\setstretch{1}}
+            
+        % ----- ABOUT ME -----
+        
+        % ----- EXPERIENCE -----
+        % \cvsection{Experience}
+        %     \cvevent{Charge}{Company}{Mm YYYY -- Mm YYYY}{City, Country}
+        %     \begin{itemize}
+        %         \item First achievement
+        %         \item Second achievement
+        %         \item Third achievement
+        %     \end{itemize}
+        %     \divider
+            
+        %     \cvevent{Charge}{Company}{Mm YYYY -- Mm YYYY}{City, Country}
+        %     \begin{itemize}
+        %         \item First achievement
+        %         \item Second achievement
+        %         \item Third achievement
+        %     \end{itemize}
+        % ----- EXPERIENCE -----
+        
+        % ----- EDUCATION -----
+        \cvsection{Education}
+            \cvevent{\textcolor{black}{University of Information Technology}}{UIT - VNUHCM}{\textcolor{black}{2021 -- Current}}{}
+
+            \begin{itemize}\setstretch{1}
+                \item \textcolor{black}{Major in \textbf{Computer Science}}
+                \item \textcolor{black}{GPA: 8.83/10}
+                \item \textcolor{black}{Have a firm cornerstone in programming with C++, Python}
+                \item \textcolor{black}{Data Structure \& Algorithms : 9.8/10}
+                \item \textcolor{black}{Object-Oriented Programming : 9.2/10}
+
+            \end{itemize}
+        % ----- EDUCATION -----
+        
+        % ----- PROJECTS -----
+        \cvsection{Projects}
+            \cvevent{\textcolor{black}{Stock Price Prediction}}{\cvreference{\faGithub}{https://github.com/phanlamthanhdu/stock-price-prediction}}{\textcolor{black}{May 2023 -- July 2023}}{}
+            \textcolor{black}{Programming Language : Python} \\
+            \vspace{0.5em}
+            \textcolor{black}{Dataset: Amazon Stock Price from Kaggle} \\
+            \vspace{0.5em}
+            \textcolor{black}{Description:} \\
+            \vspace{0.5em}
+            \begin{itemize}\setstretch{1}
+                \item \textcolor{black}{Build an LSTM model with \textbf{Keras}}
+                \item \textcolor{black}{Use the Adam algorithm for optimizing the model.}
+                \item \textcolor{black}{Use the Mean Squared Error (MSE) for measure the loss of the model.}
+            \end{itemize}
+
+            
+            \divider
+            \cvevent{\textcolor{black}{Student Performance Prediction}}{\cvreference{\faGithub}{https://github.com/phanlamthanhdu/student-performance-prediction}}{\textcolor{black}{Aug 2023 -- Sep 2023}}{}
+            \textcolor{black}{Programming Language : Python} \\
+            \vspace{0.5em}
+            \textcolor{black}{Dataset: Student Performance from Kaggle} \\
+            \vspace{0.5em}
+            
+            \textcolor{black}{Description:} \\
+            \vspace{0.5em}
+            \begin{itemize}\setstretch{1}
+                \item \textcolor{black}{Code a Linear Regression model in 3 ways : Gradient Descent, Stochastic Gradient Descent, and Normal Equation.}
+                \item \textcolor{black}{Use the R-Squared for measure the loss of the model.}
+            \end{itemize}
+            \divider
+
+            \cvevent{\textcolor{black}{OpenNebula Cloud} Computing}{\cvreference{\faGithub}{https://github.com/phanlamthanhdu/opennebula-cloud}}{\textcolor{black}{Jun 2023 -- Aug 2023}}{}
+            \textcolor{black}{Cloud computing platform: OpenNebula} \\
+            \vspace{0.5em}
+            \textcolor{black}{Operating System: Ubuntu} \\
+            \vspace{0.5em}
+            
+            \textcolor{black}{Description:} \\
+            \vspace{0.5em}
+            \begin{itemize}\setstretch{1}
+                \item \textcolor{black}{Set up OpenNebula-Sunstone web for management.}
+                \item \textcolor{black}{Configure host and virtual network for virtual machines.}
+                \item \textcolor{black}{Create images and virtual machines.}
+            \end{itemize}
+        % ----- PROJECTS -----
+    \end{paracol}
+\end{document}
